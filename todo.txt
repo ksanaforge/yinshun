@@ -1,0 +1,22 @@
+
+rename to accelon2017
+
+browserify bundle corpus builder for node.js 
+  npm for public release
+  ksana-corpus-lib   //public npm for node and browser 
+
+
+add quick jump address input box in dbselector (accept number or human format)
+
+taisho in note clickable
+mouse hover on note , stay longer for user to click on taisho link in note.
+or move to dict area?
+
+
+dictionary checking architecture (not in contract)
+
+
+Fix maps taisho mulu goes to next corpus line
+ When outline if crlf in between,
+Break into lines, add tpos before putting new texts line
+And update previews texts line
