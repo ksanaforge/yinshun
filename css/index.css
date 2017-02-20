@@ -6,6 +6,7 @@ body {margin:0px}
 .hl1 {color:blue;}
 .hl2 {color:green;}
 .hl2 {color:brown;}
+.translation {color:black;font-size:80%;font-family: Serif;font-weight:500;}
 
 .kepan {background:#9f9f9f;display: block;white-space: pre}
 .filterhit {color:#ff7f7f;font-size:75%;font-weight:700;cursor:pointer}
@@ -36,7 +37,8 @@ body {margin:0px}
 .pb {border-top:0.5px solid gray; text-align:right; width:93%;height:1px}
 .pblabel {position:absolute;color:gray;top:-0.5em;font-size:80%;font-weight: 200;font-family: Arial}
 
-.kepanlevel{color:black;font-weight: bold;border-radius: 5px}
+.kepanresponsive{cursor: pointer}
+.kepanlevel{font-weight: 500;border-radius: 5px}
 .kepanlevel0 { background-color:hsl(30,40%,50%);}
 .kepanlevel1 { background-color:hsl(60,40%,50%);}
 .kepanlevel2 { background-color:hsl(90,40%,50%);}
@@ -54,7 +56,24 @@ body {margin:0px}
 .kepanlevel14 { background-color:hsl(90,40%,50%);}
 .kepanlevel15 { background-color:hsl(120,40%,50%);}
 .kepanlevel16 { background-color:hsl(180,40%,50%);}
-
+.head {font-weight:700;}
+.head0 { color:hsl(30,40%,50%);}
+.head1 { color:hsl(60,40%,50%);}
+.head2 { color:hsl(90,40%,50%);}
+.head3 { color:hsl(120,40%,50%);}
+.head4 { color:hsl(150,40%,50%);}
+.head5 { color:hsl(180,40%,50%);}
+.head6 { color:hsl(210,40%,50%);}
+.head7 { color:hsl(240,40%,50%);}
+.head8 { color:hsl(270,40%,50%);}
+.head9 { color:hsl(300,40%,50%);}
+.head10 { color:hsl(330,40%,50%);}
+.head11 { color:hsl(0,40%,50%);}
+.head12 { color:hsl(30,40%,50%);}
+.head13 { color:hsl(60,40%,50%);}
+.head14 { color:hsl(90,40%,50%);}
+.head15 { color:hsl(120,40%,50%);}
+.head16 { color:hsl(180,40%,50%);}
 
 .CodeMirror , .cm-s-ambiance.CodeMirror {
   line-height: 1.50em;
@@ -74,10 +93,13 @@ body {margin:0px}
 
 .CodeMirror-cursor { border-left: 3px solid gray; }
 
-
-
-.notelink {font-size:0.6em;cursor:pointer;
-	top:1.1em;color:blue;position:absolute;
+.kai {font-family: DFKai-SB}
+.bold {font-weight: 600}
+.hide {font-size:0px;}
+.notepopuptitle {font-weight:700,color:white;background:lightblue;cursor:pointer;}
+.notepopup {border:solid 1px black;background:white;}
+.notelink {font-size:0.6em;cursor:default;font-weight: 600;
+	bottom:1.1em;color:blue;position:absolute;
 }
 
 .link {border-bottom:solid 1px blue;cursor:pointer;}

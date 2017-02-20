@@ -1,0 +1,1 @@
+browserify -g [envify --NODE_ENV 'production'] -r ksana-jsonrom -r ksana-corpus -r ksana-corpus-search -x react-native | uglifyjs --screw-ie8 -c=dead_code,evaluate,loops,unused -m > ../static/ksana-bundle.min.js
