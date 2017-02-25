@@ -107,36 +107,52 @@ body {margin:0px;}
 .pb {border-top:0.5px dashed gray; text-align:right; width:93%;height:1px}
 .pblabel {position:absolute;color:gray;top:-0.5em;font-size:80%;font-weight: 200;font-family: Arial}
 
-
-.searchbox.input {font-size:100%;width:10em;}
-.searchbox.button {font-size:100%;}
+.dictbox .selection{font-size:120%;}
+.dictbox .selected {font-size:120%;background:highlight;cursor: pointer}
+.searchbox .input {font-size:100%;width:10em;}
+.searchbox .button {font-size:100%;}
+.dbselector .activedbname {font-size:200%;cursor:pointer}
+.dbselector .dbname {cursor:pointer;font-size:200%;border-bottom:solid 1px blue}
 .homebar {background: #da9b49}
-.homebar.activedb{cursor:pointer;border-bottom:solid 1px brown}
-.homebar.modelink {color:brown;cursor:pointer;}
-.homebar.modelink:hover {border-bottom: 1px brown solid}
-.homebar.activemodelink {background:black;pointer-events:none;color:yellow;}
-.homebar.fasciclelink {color:brown;cursor:pointer;}
-.homebar.fasciclelink:hover {border-bottom: 1px brown solid}
-.homebar.activegroup {font-weight: 700}
-.bookresult.bookname {color:navy;cursor:pointer;}
-.bookresult.hit {color:red;}
+
+.homebar .activedb{cursor:pointer;border-bottom:solid 1px brown;
+  text-shadow: 0 0 3px yellow, 0 0 5px black;font-size:115%;font-family: "DFKai-SB"}
+.homebar .modelink {color:brown;cursor:pointer;}
+.homebar .modelink:hover {border-bottom: 1px brown solid}
+.homebar .activemodelink {background:black;pointer-events:none;color:yellow;}
+.homebar .fasciclelink {color:brown;cursor:pointer;}
+.homebar .fasciclelink:hover {border-bottom: 1px brown solid}
+.homebar .activegroup {font-weight: 700}
+.bookresult .bookname {color:navy;cursor:pointer;}
+.bookresult .hit {color:red;}
 
 .footer { background: #eac799;text-align:center}
-.footer.separator {border-top:solid 1px silver}
-.excerpt.hitcount {color:red;}
-.excerpt.seq {margin-left:3}
-.excerpt.pb_now {background-color:yellow}
-.excerpt.excerptpb{cursor:pointer}
-.excerpt.excerptline{white-space:pre;display:block;padding:5px;}
-.excerpt.group{background:white;}
-.excerpt.groupheader{background:#eac799}
-.excerpt.excerpttable{width:100%;border-bottom:1px gray dotted}
+.footer .separator {border-top:solid 1px silver}
+.excerpt .hitcount {color:red;}
+.excerpt .seq {margin-left:3}
+.excerpt .pb_now {background-color:yellow}
+.excerpt .excerptpb{cursor:pointer}
+.excerpt .excerptline{white-space:pre;display:block;padding:5px;}
+.excerpt .group{background:white;}
+.excerpt .groupheader{background:#eac799}
+.excerpt .table{width:100%;border-bottom:1px gray dotted}
+
+.excerptpager {font-size:14}
+.excerptpager .pager {text-align:center;margin-left:3;cursor:pointer;color:#AfAfAf;
+  background:#2f2f2f;border-radius:50%;height:1.5em;width:1.5em;display:inline-block}
+
+.excerptpager .selectedpager{text-align:center;margin-left:3;color:yellow;
+  background:black;
+  border-radius:50%;height:1.5em;width:1.5em;display:inline-block}
+
+
+
 .readmainmenu {
   width:250;height:200;
   background:silver;border:solid 1px gray;
   border-radius:5px;padding:5px
 }
-.readmainmenu.uploadmarkupbutton{
+.readmainmenu .uploadmarkupbutton{
   cursor:pointer;border:1px solid black;border-radius:3px
 }
 
