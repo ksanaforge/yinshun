@@ -49,6 +49,9 @@ body {margin:0px;}
 .filterlabel:hover {text-decoration:underline;}
 .bilink {border-bottom:dotted 1px blue;}
 
+.origin{font-size:75%;color:blue;cursor:pointer;}
+.origin:before{content:"(";}
+.origin:after{content:")";}
 .toclabel {cursor:pointer}
 .toclabel_selected {border:solid 1px blue;border-radius: 3px}
 .toclabel:hover {border-bottom:1px solid blue}
