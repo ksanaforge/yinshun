@@ -9,6 +9,7 @@ body {margin:0px;}
   font-size:120%;
   font-weight:100;
   font-family: "Times New Roman","新細明體";
+  user-select: none;
 }
 
 .CodeMirror{
@@ -35,6 +36,8 @@ body {margin:0px;}
 .inlinenote {font-size:80%;color:brown;}
 .kai {font-family:"DFKai-SB"}
 .b {font-weight: 700}
+.s {vertical-align: super;}
+
 .salun {font-family:"DFKai-SB"}
 .salun.authorseg {font-weight: 700;font-family: "新細明體"}
 .q {font-family:DFKai-SB}
@@ -181,8 +184,9 @@ body {margin:0px;}
 .taisho_app:before {content:"大正校勘";}
 .taisho_app{color:blue;}
 
-.footnote {font-size:0.7em;cursor:default;font-weight: 500;
+.footnote {font-size:0.6em;cursor:default;font-weight: 500;
   bottom:1.1em;color:brown;font-family: Arial; padding-right:5px;
+  vertical-align: super;
 } /* need some padding, for mpps 3.39, 3.40 */
 
 .yinshunnote {font-size:0.7em;cursor:default;font-weight: 500;
@@ -194,10 +198,8 @@ body {margin:0px;}
 .note {font-size:0.7em;cursor:pointer;font-family: Arial;
 	top:-1.1em;color:red;position:absolute;}
 .ptr {font-size:0.7em;cursor:pointer;font-family: Arial;
-	color:brown;font-weight: 700;padding-right:5px;}
-.ptr_popup{
-  position:absolute; top:-1.1em;
-}
+	color:brown;font-weight: 700;padding-right:5px;vertical-align: super;}
+
 
 .defgroup:before {content:"注釋群\a";white-space: pre;border: 1px solid brown;font-size:100%;}
 .def {font-size:0.7em;cursor:pointer;font-weight: 700;
