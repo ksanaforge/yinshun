@@ -1,6 +1,6 @@
 /* application css */
 body {margin:0px;}
-
+#root {font-family: "Microsoft JhengHei", Arial; margin-left:10px;}
 
 .CodeMirror-linewidget {overflow:visible;}
 
@@ -23,105 +23,32 @@ body {margin:0px;}
 
 .CodeMirror-cursor { border-left: 3px solid gray; }
 
-
-#root {font-family: "Microsoft JhengHei", Arial; margin-left:10px;}
-
-.hl {color:#ff7f7f;}
-.hl0 {color:#ff7f7f;}
-.hl1 {color:blue;}
-.hl2 {color:green;}
-.hl3 {color:brown;}
-.translation {color:black;font-size:80%;font-family: Serif;font-weight:500;}
-.authurseg{font-weight: 700;font-family: "新細明體"}
-.inlinenote {font-size:80%;color:brown;}
-.kai {font-family:"DFKai-SB"}
-.b {font-weight: 700}
-.s {vertical-align: super;}
-
-.salun {font-family:"DFKai-SB"}
-.salun.authorseg {font-weight: 700;font-family: "新細明體"}
-.q {font-family:DFKai-SB}
-.p {}
-.p:before {content:"　";white-space:pre;font-size:200%;}
-.jin {font-family: DFKai-SB}
 .kepan {background:#9f9f9f;display: block;white-space: pre}
 .filterhit {color:#ff7f7f;font-size:75%;font-weight:700;cursor:pointer}
 .filterhit:hover {text-decoration:underline;color:red;}
 .disablefilterhit {color:#ff7f7f;font-size:75%}
 .filterlabel {color:lightblue;cursor:pointer}
 .filterlabel:hover {text-decoration:underline;}
-.bilink {border-bottom:dotted 1px blue;}
 
-.origin{font-size:75%;color:blue;cursor:pointer;}
-.origin:before{content:"(";}
-.origin:after{content:")";}
 .toclabel {cursor:pointer}
 .toclabel_selected {border:solid 1px blue;border-radius: 3px}
 .toclabel:hover {border-bottom:1px solid blue}
-.highlight{background: #fff1c2}
-
-.followbuttongroup {position:absolute;cursor:pointer;
- z-index: 300;top:-1.1em;line-height:1em}
-.followbutton {font-size:0.8em;cursor:pointer;background:black;
-  font-family: Arial,"Microsoft JhengHei";
-  z-index: 300;font-weight: 500;color:#ffd23d;padding:2px;margin:2px;
-  border-radius: 3px;display:inline-block}
-
 
 .dicthandle{position: absolute;right:0;cursor: pointer;top:-1em;}
 
 .hitbuttongroup {position: absolute;top:-1.2em;}
-.hitbutton {color:black;border-radius:5px;font-size:80%;
-  cursor:pointer;background: rgba(127,127,255,127)}
+.hitbutton {color:black;border-radius:5px;font-size:80%;cursor:pointer;background: rgba(127,127,255,127)}
 
-
-.kepanresponsive{cursor: pointer}
-.kepanlevel{font-weight: 500;border-radius: 5px}
-.kepanlevel0 { background-color:hsl(30,40%,50%);}
-.kepanlevel1 { background-color:hsl(60,40%,50%);}
-.kepanlevel2 { background-color:hsl(90,40%,50%);}
-.kepanlevel3 { background-color:hsl(120,40%,50%);}
-.kepanlevel4 { background-color:hsl(150,40%,50%);}
-.kepanlevel5 { background-color:hsl(180,40%,50%);}
-.kepanlevel6 { background-color:hsl(210,40%,50%);}
-.kepanlevel7 { background-color:hsl(240,40%,50%);}
-.kepanlevel8 { background-color:hsl(270,40%,50%);}
-.kepanlevel9 { background-color:hsl(300,40%,50%);}
-.kepanlevel10 { background-color:hsl(330,40%,50%);}
-.kepanlevel11 { background-color:hsl(0,40%,50%);}
-.kepanlevel12 { background-color:hsl(30,40%,50%);}
-.kepanlevel13 { background-color:hsl(60,40%,50%);}
-.kepanlevel14 { background-color:hsl(90,40%,50%);}
-.kepanlevel15 { background-color:hsl(120,40%,50%);}
-.kepanlevel16 { background-color:hsl(180,40%,50%);}
-.head {font-weight:700;}
-.head0 { color:hsl(30,60%,30%);}
-.head1 { color:hsl(60,60%,30%);}
-.head2 { color:hsl(90,60%,30%);}
-.head3 { color:hsl(120,60%,30%);}
-.head4 { color:hsl(150,60%,30%);}
-.head5 { color:hsl(180,60%,30%);}
-.head6 { color:hsl(210,60%,30%);}
-.head7 { color:hsl(240,60%,30%);}
-.head8 { color:hsl(270,60%,30%);}
-.head9 { color:hsl(300,60%,30%);}
-.head10 { color:hsl(330,60%,30%);}
-.head11 { color:hsl(0,60%,30%);}
-.head12 { color:hsl(30,60%,30%);}
-.head13 { color:hsl(60,60%,30%);}
-.head14 { color:hsl(90,60%,30%);}
-.head15 { color:hsl(120,60%,30%);}
-.head16 { color:hsl(180,60%,30%);}
-
-.pb {border-top:0.5px dashed gray; text-align:right; width:93%;height:1px}
-.pblabel {position:absolute;color:gray;top:-0.5em;font-size:80%;font-weight: 200;font-family: Arial}
 
 
 .gotopage {position: absolute;}
 .dictbox .selection {font-size:120%;}
 .dictbox .selected {font-size:120%;background:highlight;cursor: pointer}
 
-.searchbox .input {font-size:100%;width:10em;}
+.searchbox .input {font-size:100%;width:20em;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
 .searchbox .button {font-size:100%;}
 .dbselector .activedbname {font-size:200%;cursor:pointer}
 .dbselector .dbname {cursor:pointer;font-size:200%;border-bottom:solid 1px blue}
@@ -149,6 +76,7 @@ body {margin:0px;}
 .excerpt .group{background:white;}
 .excerpt .groupheader{background:#eac799}
 .excerpt .table{width:100%;border-bottom:1px gray dotted}
+.excerpt .fuzzytitle {font-size:120%;cursor:pointer;border-bottom:1px solid blue;}
 
 .excerptpager {font-size:14}
 .excerptpager .pager {text-align:center;margin-left:3;cursor:pointer;color:#0a0a0a;
@@ -168,42 +96,9 @@ body {margin:0px;}
 .readmainmenu .uploadmarkupbutton{
   cursor:pointer;border:1px solid black;border-radius:3px
 }
-
-.kai {font-family: "Times New Roman","DFKai-SB"}
-.bold {font-weight: 600}
 .hide {font-size:0px;}
-.notepopuptitle {font-weight:700,color:white;background:lightblue;cursor:pointer;}
-.notepopup {border:solid 1px black;background:white;}
-
-.notelink {font-size:0.7em;cursor:default;font-weight: 500;
-	bottom:1.1em;color:brown;position:absolute;font-family: Arial;
-}
-.notelink:before {content:"(";}
-.notelink:after {content:")";}
-
-.taisho_app:before {content:"大正校勘";}
-.taisho_app{color:blue;}
-
-.footnote {font-size:0.6em;cursor:default;font-weight: 500;
-  bottom:1.1em;color:brown;font-family: Arial; padding-right:5px;
-  vertical-align: super;
-} /* need some padding, for mpps 3.39, 3.40 */
-
-.yinshunnote {font-size:0.7em;cursor:default;font-weight: 500;
-  bottom:1.1em;color:brown;font-family: Arial;position:absolute;
-}
-
-.link {border-bottom:solid 1px blue;cursor:pointer;font-family: Arial;}
-
-.note {font-size:0.7em;cursor:pointer;font-family: Arial;
-	top:-1.1em;color:red;position:absolute;}
-.ptr {font-size:0.7em;cursor:pointer;font-family: Arial;
-	color:brown;font-weight: 700;padding-right:5px;vertical-align: super;}
 
 
-.defgroup:before {content:"注釋群\a";white-space: pre;border: 1px solid brown;font-size:100%;}
-.def {font-size:0.7em;cursor:pointer;font-weight: 700;
-	color:brown;font-family: Arial;}
 .mui-tabs__bar>li>a{
 	line-height: 1.4em;  /*pass as topMargin down to muitab, see index.js*/
 	height:1.4em;
