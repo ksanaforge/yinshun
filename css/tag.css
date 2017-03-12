@@ -58,6 +58,11 @@
   bottom:1.1em;color:brown;font-family: Arial;position:absolute;
 }
 
+.linkpopuptitle {font-weight:700,color:white;background:lightblue;
+  cursor:pointer;}
+.linkpopup {border:solid 1px black;background:white;}
+
+
 .notepopuptitle {font-weight:700,color:white;background:lightblue;
   cursor:pointer;}
 .notepopup {border:solid 1px black;background:white;}
@@ -89,7 +94,9 @@
 .inlinenote {font-size:80%;color:brown;}
 .translation {color:black;font-size:80%;font-family: Serif;font-weight:500;}
 .authurseg{font-weight: 700;font-family: "標楷體"}
-
+.backlink{cursor:pointer}
+.backlink:hover{background:#ffff7f}
+.backlink_originate{font-weight: 700;border:1px solid blue;cursor:pointer}
 
 
 .salun {font-family:"Times New Roman","DFKai-SB"}
