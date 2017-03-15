@@ -1,5 +1,5 @@
 	window.accelon2017={
-		corpora:["yinshun","mpps","taisho","taixu"],
+		corpora:["yinshun","mpps","taisho"],
 		dictionaries:[
 	{name:"一行",url:"http://buddhaspace.org/dict/index.php?keyword=$$"},
 	{name:"萌典",url:"https://www.moedict.tw/$$"},
