@@ -12,9 +12,7 @@
   "dependencies": {
   	"ksana2015-breadcrumbtoc":"https://github.com/ksanaforge/ksana2015-breadcrumbtoc.git",
   	"ksana-codemirror":"https://github.com/ksanaforge/ksana-codemirror.git",
-  	"ksana-corpus-rom":"https://github.com/ksanaforge/ksana-corpus-rom.git",
   	"ksana-localization":"https://github.com/ksanaforge/ksana-localization.git",
-  	"ksana-corpus":"https://github.com/ksanaforge/ksana-corpus.git",
-  	"ksana-corpus-search":"https://github.com/ksanaforge/ksana-corpus-search.git"
+    "ksana-corpus-view":"https://github.com/ksanaforge/ksana-corpus-view.git"
 	}
 }
