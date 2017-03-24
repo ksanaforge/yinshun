@@ -1,23 +1,16 @@
-放棄 capture text
-利用 xml parser 的 pos 來得到 open tag 的text pos
-除了 要拔掉的文字 放入 暫存區, (close tag 時丟棄或寫入其他field)
+registered database
 
-統一 knext,kcount 和 tokenizer
+control +x generate fulladdress corpus:address
 
 
-rename to accelon2017
+convert choice orig/sic to markup
+show orig/sic on top of replaced word
 
-browserify bundle corpus builder for node.js 
-  npm for public release
-  ksana-corpus-lib   //public npm for node and browser 
-
-
-add quick jump address input box in dbselector (accept number or human format)
 
 taisho in note clickable
 mouse hover on note , stay longer for user to click on taisho link in note.
 or move to dict area?
-
+c d.
 
 dictionary checking architecture (not in contract)
 

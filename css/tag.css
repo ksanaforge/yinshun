@@ -1,5 +1,5 @@
 .article {font-size:150%;}
-
+.svg {user-select: all;}
 .tag:before {content:"<";}
 .tag:after {content:">";}
 .tag{color:blue;font-family: "Courier New";font-weight: 700}
@@ -38,7 +38,7 @@
 .kai {font-family: "Times New Roman","DFKai-SB"}
 .bold {font-weight: 600}
 .bilink {border-bottom:dotted 1.5px blue;}
-
+.k {border-bottom:dotted 1.5px blue}
 .origin{font-size:75%;color:blue;cursor:pointer;}
 .origin:before{content:"(";}
 .origin:after{content:")";}
@@ -50,7 +50,7 @@
 
 .link {border-bottom:solid 1px blue;cursor:pointer;font-family: Arial;}
 
-.defgroup:before {content:"注釋群\a";white-space: pre;border: 1px solid brown;font-size:100%;}
+.defgroup:before {content:"注釋";white-space: pre;border: 1px solid brown;font-size:100%;border-radius:5px}
 .def {font-size:0.7em;cursor:pointer;font-weight: 700;
 	color:brown;font-family: Arial;}
 
@@ -58,8 +58,15 @@
   bottom:1.1em;color:brown;font-family: Arial; padding-right:5px;
   vertical-align: super;
 } /* need some padding, for mpps 3.39, 3.40 */
+.footnote_ori {
+ position:absolute;
+}
 
-
+.rubynote {vertical-align: super; color:brown;bottom:1.1em;
+font-size:0.7em;}
+.rubynote_ori {
+ position:absolute;
+}
 .yinshunnote {font-size:0.7em;cursor:default;font-weight: 500;
   bottom:1.1em;color:blue;font-family: Arial;vertical-align: super; 
 }
@@ -110,7 +117,7 @@
 .backlink:hover{background:#ffff7f}
 .backlink_originate{font-weight: 700;border:1px solid blue;cursor:pointer}
 
-
+.inlinesvg {user-select:all}
 .salun {font-family:"Times New Roman","DFKai-SB"}
 .salun.authorseg {font-weight: 700;font-family: "標楷體"}
 
