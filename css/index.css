@@ -68,13 +68,14 @@ body {margin:0px;}
 .homebar .activemodelink {background:black;pointer-events:none;color:yellow;}
 .homebar .fasciclelink {color:brown;cursor:pointer;}
 .homebar .activegroup {font-weight: 700}
-.bookresult .bookname {cursor:pointer;}
-.bookresult .bookname:hover {border-bottom: 1px solid blue}
-.bookresult .hit {color:red;}
+.bookresult .bookname {cursor:pointer;font-weight: 500}
+.bookresult .bookname:hover {border-bottom: 1px solid blue;}
+.bookresult .hit {color:red;font-size:80%;}
 
 .footer { background: #eac799;text-align:center}
 .footer .separator {border-top:solid 1px silver}
 .excerpt .hitcount {color:red;}
+.totalhitcount{color:red;font-size:120%;}
 .excerpt .seq {margin-left:3}
 .excerpt .pb_now {background-color:yellow}
 .excerpt .excerptpb{cursor:pointer}

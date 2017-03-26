@@ -24,10 +24,14 @@
 .head16 { color:hsl(180,60%,30%);}
 
 .hl {color:#7f7fff;}
-.hl0 {color:#ff4f4f;font-weight: 700}
-.hl1 {color:blue;}
-.hl2 {color:green;}
-.hl3 {color:brown;}
+.hl0 { background:hsl(0,80%,70%);font-weight: 700}
+.hl1 { background:hsl(60,80%,60%);font-weight: 700}
+.hl2 { background:hsl(30,80%,60%);font-weight: 700}
+.hl3 { background:hsl(240,80%,80%);font-weight: 700}
+.hl4 { background:hsl(180,80%,60%);font-weight: 700}
+.hl5 { background:hsl(88,80%,60%);font-weight: 8}
+
+
 .kai {font-family:"Times New Roman","DFKai-SB"}
 .jin {font-family: "Times New Roman","DFKai-SB"}
 .j  {font-family: "Times New Roman","DFKai-SB"}
