@@ -1,21 +1,22 @@
 ==install modules under ksana2016/p/node_modules ==
     cd ksana2016/p
-    npmi
+    npmi.cmd
 
     cd yinshun/buildscript
-    ksana-bundle
-    react-bundle
+    ksana-bundle.cmd
+    react-bundle.cmd
+    codemirror-bundle.cmd
     cd ..
-    npm start
 
+===start development===
+    npm start
 
 ===generate release bundle.js===
     npm run build
 
-
 ===debugging ksana core===
-cd p/node_modules
-git clone https://github.com/ksanaforge/ksana-corpus
-git clone https://github.com/ksanaforge/ksana-corpus-rom
-git clone https://github.com/ksanaforge/ksana-corpus-search
+    cd ksana2016/p
+	npmi-dev.cmd
+    cd yinshun/buildscript
+    ksana-bundle.cmd
 
