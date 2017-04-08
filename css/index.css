@@ -110,7 +110,7 @@ body {margin:0px;}
   color:brown;
   border-radius: 50%}
 
-.hide {visibility: hidden;}
+.hide {display:none}
 
 
 .mui-tabs__bar>li>a{
