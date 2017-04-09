@@ -228,3 +228,4 @@ Resizer.disabled {
 Resizer.disabled:hover {
   border-color: transparent;
 }
+.svgbutton {cursor:pointer;}
