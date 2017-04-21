@@ -1,5 +1,5 @@
 ==install modules under ksana2016/p/node_modules ==
-    cd ksana2016/p
+    cd 2016/p
     npmi.cmd
 
     cd yinshun/buildscript
@@ -15,8 +15,7 @@
     npm run build
 
 ===debugging ksana core===
-    cd ksana2016/p
+    cd 2016/p
 	npmi-dev.cmd
     cd yinshun/buildscript
-    ksana-bundle.cmd
-
+    ksana-bundle-debug.cmd
