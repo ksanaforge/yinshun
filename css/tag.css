@@ -1,6 +1,6 @@
 .article {font-size:150%;}
 .pu {position:absolute;top:0.6em;z-index: -10}
-.punc {position:absolute;top:0.8em;color:red;z-index: -10}
+.punc {position:absolute;top:0.8em;color:green;z-index: -10}
 .punc_overlap {position:absolute;top:0.8em;color:green;z-index: -10}
 .collation_delete  {font-size:80%;color:red;position:absolute;top:-1em;}
 .collation_insert {color:green;}
@@ -8,6 +8,10 @@
 .tag:before {content:"<";}
 .tag:after {content:">";}
 .tag{color:blue;font-family: "Courier New";font-weight: 700}
+.closetag:before {content:"</";}
+.closetag:after {content:">";}
+.closetag{color:blue;font-family: "Courier New";font-weight: 700}
+
 .entry {color:blue;}
 .head {font-weight:700;}
 .head0 { color:hsl(30,60%,30%);}
