@@ -138,3 +138,6 @@ font-size:0.7em;}
 
 .pb {border-top:0.5px dashed gray; text-align:right; width:93%;height:1px}
 .pblabel {position:absolute;color:gray;top:-0.5em;font-size:80%;font-weight: 200;font-family: Arial}
+.inlinepb {font-size:80%;font-weight: 200;font-family: Arial;color:blue;}
+.inlinepb:before {content:"[";}
+.inlinepb:after {content:"]";}
