@@ -1,6 +1,7 @@
 must install under ksana2016
 
-==install modules under ksana2016/p/node_modules ==
+== install modules under ksana2016/p/node_modules ==
+
     npmi.cmd
 
     cd yinshun/buildscript
@@ -8,13 +9,16 @@ must install under ksana2016
     react-bundle.cmd
     codemirror-bundle.cmd
 
-==start development==
+== start development==
+
     npm start
 
-==generate release bundle.js==
+== generate release bundle.js ==
+
     npm run build
 
-==debugging ksana core==
-	npmi-dev.cmd
+== debugging ksana core ==
+
+    npmi-dev.cmd
     cd yinshun/buildscript
     ksana-bundle-debug.cmd
