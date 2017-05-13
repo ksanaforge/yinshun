@@ -8,13 +8,13 @@ must install under ksana2016
     react-bundle.cmd
     codemirror-bundle.cmd
 
-===start development===
+==start development==
     npm start
 
-===generate release bundle.js===
+==generate release bundle.js==
     npm run build
 
-===debugging ksana core===
+==debugging ksana core==
 	npmi-dev.cmd
     cd yinshun/buildscript
     ksana-bundle-debug.cmd
